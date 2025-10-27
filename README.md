@@ -1,1 +1,1 @@
-# ITCS102-1C
+John Vincent P. Balane 025A-13954 18 yrs old, Born on August 3,2007 Live in New York Ext. University Village, Site Brgy. Ibabang Dupay, Lucena City This repository contains my coursework for ITCS102, including programming exercises, mini-projects, and notes. The subject introduces basic programming concepts using Python, focusing on problem-solving, logic building, and code structure. All files here reflect my learning journey throughout the semester.
