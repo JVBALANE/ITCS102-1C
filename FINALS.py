@@ -57,23 +57,11 @@ while True:
 
             sub_choice = input("Enter your choice:  ")
             if sub_choice == 'a':
-                print("\nHere's the Definition of Variables:\nIn Python, a variable is a named storage location in memory that holds a value. It acts as a label for data, allowing you to refer to and manipulate that data within your program. Variables are dynamically typed, meaning you don't need to explicitly declare their type; it's inferred from the value assigned to them. You can assign different types of data (like numbers, strings, lists, etc.) to a variable throughout the program.\n")
+                print("\nHere's the Definition of Variables:\nIn Python, a Variable is a named storage location in memory that holds a value. It acts as a label for data, allowing you to refer to and manipulate that data within your program. Variables are dynamically typed, meaning you don't need to explicitly declare their type; it's inferred from the value assigned to them. You can assign different types of data (like numbers, strings, lists, etc.) to a variable throughout the program.\n")
 
                 continue
             elif sub_choice == 'b':
-                print("\nHere's an example of Variables:\nExample Code for Variables: \nAge = 25\nprint(age)  # Output: 25
-
-# Assigning a string to a variable
-name = "John Doe"
-print(name) # Output: John Doe
-
-# Assigning a floating-point number to a variable
-height = 5.9
-print(height) # Output: 5.9
-
-# Assigning a boolean value to a variable
-is_student = True
-print(is_student) # Output: True
+                print("\nHere's an example of Variables:\nExample Code for Variables: \nAge = 25\nprint(age)\n Output: 25\nName = "John Vincent"\nprint(name)\nOutput: John Doe"\nheight = 5.9\nprint(height')\nOutput: 5.9\nis_student = True\nprint('is_student')\nOutput: True
 
                
                 continue
