@@ -1,9 +1,9 @@
 import time
 
-print("GREETINNGS FROM MY CODE COMPILER PROGRAM\n====================")
+print("GREETINNGS FROM MY CODE COMPILER PROGRAM\n=============================================")
 
 while True:
-    print("HERE ARE THE OPTIONS ON THE MENU:\n====================")
+    print("HERE ARE THE OPTIONS ON THE MENU:\n=============================================")
     print("A - PRINT STATEMENTS")
     print("B - VARIABLES")
     print("C - OPERATORS")
