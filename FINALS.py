@@ -29,11 +29,11 @@ while True:
 
             sub_choice = input("Enter your choice:  ")
             if sub_choice == 'a':
-                print("\nHere's the Definition of Print Statement:\nThe print() A PRINT STATEMENTis a command in a programming language that displays output on a screen or other output device. It is a fundamental tool for debugging, displaying results, and interacting with users by showing them information during program execution.")
+                print("\nHere's the Definition of Print Statement:\nA Print Statement is a command in a programming language that displays output on a screen or other output device. It is a fundamental tool for debugging, displaying results, and interacting with users by showing them information during program execution.")
 
                 continue
             elif sub_choice == 'b':
-                print("\nHere's an example of Print Statement:\nprint:{'HAPPY HOLLIDAYS EVERYONE'} ")
+                print("\nHere's an example of Print Statement:\nprint:('HAPPY HOLIDAYS EVERYONE')\n#final output: HAPPY HOLIDAYS EVERYONE")
 
                 continue
             elif sub_choice == 'c':
