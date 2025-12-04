@@ -1,6 +1,6 @@
 import time
 
-print("GREETINNGS FROM MY CODE COMPILER PROGRAM\n=============================================")
+print("HELLO!! I'M JV AND THIS IS MY CODE COMPILER PROGRAM\n=============================================")
 
 while True:
     print("HERE ARE THE OPTIONS ON THE MENU:\n=============================================")
@@ -18,27 +18,27 @@ while True:
 
     if choice == "A":
         # Your code for Print Statements goes here
-        print("Please Wait....")
-        time.sleep(1)
-        #upon learning sir, I found timer that make you wait to print what you input just import time above
+        print("Please Wait...")
+        time.sleep(3)
+        #upon learning sir, I found a timer that could make you wait to print on what you input, Just simply import time that you want 
         while True:
-            print("\nOpton 1 Submenu: ")
+            print("\nOPTION 1 Submenu: ")
             print("a - Definition")
             print("b - Example")
             print("c - Back to Main Menu")
 
             sub_choice = input("Enter your choice:  ")
             if sub_choice == 'a':
-                print("\nHere's the Definition of Print Statement:\nThe print() function prints the specified message to the screen, or other standard output device. The message can be a string, or any other object, the object will be converted into a string before written to the screen.")
+                print("\nHere's the Definition of Print Statement:\nThe print() A PRINT STATEMENTis a command in a programming language that displays output on a screen or other output device. It is a fundamental tool for debugging, displaying results, and interacting with users by showing them information during program execution.")
 
                 continue
             elif sub_choice == 'b':
-                print("\nHere's an example of Print Statement:\nHello World")
+                print("\nHere's an example of Print Statement:\nprint:{'HAPPY HOLLIDAYS EVERYONE'} ")
 
                 continue
             elif sub_choice == 'c':
-                print("\nPlease Wait....")
-                time.sleep(2)
+                print("\nPlease Wait...")
+                time.sleep(3)
 
                 break
             else:
@@ -47,22 +47,35 @@ while True:
                 continue
 
     elif choice == "B":
-        print("\nPlease Wait....")
-        time.sleep(2)
+        print("\nPlease Wait...")
+        time.sleep(3)
         while True:
-            print("\nOption 2 Submenu: ")
+            print("\nOPTION 2 Submenu: ")
             print("a - Definition")
             print("b - Example")
             print("c - Back to Main Menu")
 
             sub_choice = input("Enter your choice:  ")
             if sub_choice == 'a':
-                print("\nHere's the Definition of Variables:\nIn Python, a variable is a name that refers to a value stored in memory. \nVariables are used to store and manipulate data in a program.\n")
+                print("\nHere's the Definition of Variables:\nIn Python, a variable is a named storage location in memory that holds a value. It acts as a label for data, allowing you to refer to and manipulate that data within your program. Variables are dynamically typed, meaning you don't need to explicitly declare their type; it's inferred from the value assigned to them. You can assign different types of data (like numbers, strings, lists, etc.) to a variable throughout the program.\n")
 
                 continue
             elif sub_choice == 'b':
-                print("\nHere's an example of Variables:\nExample Code for Variables: \nName: ICAL\nAge: 18\nMarried: False\nTemperature: 38.1\n\nHi Ical\nYou're 18 years old\nFalse that you're married\nYour body temperature is 38.1 degrees celsius")
+                print("\nHere's an example of Variables:\nExample Code for Variables: \nAge = 25\nprint(age)  # Output: 25
 
+# Assigning a string to a variable
+name = "John Doe"
+print(name) # Output: John Doe
+
+# Assigning a floating-point number to a variable
+height = 5.9
+print(height) # Output: 5.9
+
+# Assigning a boolean value to a variable
+is_student = True
+print(is_student) # Output: True
+
+               
                 continue
             elif sub_choice == 'c':
                 print("\nPlease Wait....")
