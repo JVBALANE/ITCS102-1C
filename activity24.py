@@ -24,3 +24,4 @@ while isCont == True:
         break
     else:
         print("Invalid choice")
+        break
