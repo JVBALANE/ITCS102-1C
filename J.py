@@ -87,7 +87,7 @@ while True:
                  print("\nIn Python, operators are special symbols that perform operations on values and variables. Common types include: Arithmetic operators ( +  for addition,  -  for subtraction,  *  for multiplication,  /  for division,  //  for floor division,  %  for modulus,  **  for exponentiation), Comparison operators ( ==  for equal to,  !=  for not equal to,  >  for greater than,  <  for less than,  >=  for greater than or equal to,  <=  for less than or equal to), Logical operators ( and ,  or ,  not  for logical AND, OR, and NOT respectively), Assignment operators ( =  for assignment,  +=  for addition assignment,  -=  for subtraction assignment, etc.), and Bitwise operators (e.g.,  & ,  | ,  ^ ,  ~ ,  << ,  >>  for bitwise AND, OR, XOR, NOT, left shift, and right shift). These operators enable calculations, comparisons, logical evaluations, and data manipulation within Python programs.")
 
                  continue
-             elif sub_choice == 'b':
+     elif sub_choice == 'b':
                  print("n1=eval(input("Enter the first number:"))\nn2 = eval(input("Enter the second number: "))\ns = n1 + n2\nd = n1 - n2\np = n1 * n2\nq = n1 / n2\nprint("The sum of", n1, "and", n2, "is", s)\nprint("The difference of", n1, "and", n2, "is", d)\nprint("The product of", n1, "and", n2, "is", p)\nprint("The quotient of", n1, "and", n2, "is", q)/\nprint(n1, "exponent by", n2, "is", n1**n2)\nprint("The remainder of", n1, "and", n2, "is", n1 % n2)\nprint("The floor division of", n1, "and", n2, "is", n1 // n2)\nFinal Ouput:\nEnter the first number: 10\nEnter the second number: 3\nThe sum of 10 and 3 is 13\nThe difference of 10 and 3 is 7\nThe product of 10 and 3 is 30\nThe quotient of 10 and 3 is 3.3333333333333335\n10 exponent by 3 is 1000\nThe remainder of 10 and 3 is 1\nThe floor division of 10 and 3 is 3")
 
                  continue
@@ -115,7 +115,7 @@ while True:
 
             sub_choice=input("Input Your Choice")
             if sub_choice == 'a':
-                print("\nIn Python, a conditional statement is a type of control flow statement that allows \n the program to make decisions based  on certain conditions. The basic syntax for a conditional \n statement is the 'if' statement. \n")
+                print("\nIn Python, A conditional statement (also called an "if-then statement") is a logical proposition that connects two related claims: a hypothesis (the "if" part, a starting condition or premise) and a conclusion (the "then" part, the result or outcome that follows if the hypothesis is true). It frames a relationship where the truth of the conclusion depends on the truth of the hypothesis; for example, "If a shape is a square (hypothesis), then it has four equal sides (conclusion)". Conditional statements do not claim the hypothesis is actually true — only that if it is, the conclusion will hold.\n")
 
                 continue
 
