@@ -4,6 +4,8 @@ from tkinter import messagebox, ttk
 from openpyxl import Workbook, load_workbook
 from datetime import datetime
 
+FILE_NAME = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Vehicle_Database.xlsx")
+
 def clear_boxes():
     custname_entry.delete(0, tk.END)
     contact_entry.delete(0, tk.END)
