@@ -82,10 +82,8 @@ def calculate_cost():
         total_label.config(text=str(total))
 
     except:
-        messagebox.showerror("Error", "Use date format: YYYY-MM-DD")
-
-
-# Save new record to Excel
+        messagebox.showerror("Error", "Use date format: YYYY-MM-DD") 
+        
 def submit():
     name = custname_entry.get()
     contact = contact_entry.get()
@@ -115,7 +113,7 @@ def submit():
         ws.append(["ID", "CustomerName", "Contact", "VehicleType", "Plate",
                    "StartDate", "EndDate", "Days", "Rate", "Total", "Status"])
 
-    new_id = f"RES{ws.max_row:03d}"
+    new_id = f"RES{ws.max_row}"
     ws.append([new_id, name, contact, vehicle, plate, start_dt, end_dt, days, rate, total, status])
     wb.save("Vehicle_Database.xlsx")
     wb.close()
