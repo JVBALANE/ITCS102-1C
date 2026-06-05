@@ -30,13 +30,13 @@ def delete_record():
     values = table.item(selected, "values")
     delete_id = str(values[0])
 
-    wb = load_workbook("Vehicle_Database.xlsx")
+    wb = load_workbook("Balane_Database.xlsx")
     ws = wb.active
     for row in range(2, ws.max_row + 1):
         if str(ws.cell(row=row, column=1).value) == delete_id:
             ws.delete_rows(row)
             break
-    wb.save("Vehicle_Database.xlsx")
+    wb.save("Balane_Database.xlsx")
     wb.close()
 
     table.delete(selected)
@@ -82,8 +82,9 @@ def calculate_cost():
         total_label.config(text=str(total))
 
     except:
-        messagebox.showerror("Error", "Use date format: YYYY-MM-DD") 
-        
+        messagebox.showerror("Error", "Use date format: YYYY-MM-DD")
+
+
 def submit():
     name = custname_entry.get()
     contact = contact_entry.get()
@@ -104,8 +105,8 @@ def submit():
         messagebox.showerror("Error", "Contact must be numbers.")
         return
 
-    if os.path.exists("Vehicle_Database.xlsx"):
-        wb = load_workbook("Vehicle_Database.xlsx")
+    if os.path.exists("Balane_Database.xlsx"):
+        wb = load_workbook("Balane_Database.xlsx")
         ws = wb.active
     else:
         wb = Workbook()
@@ -115,7 +116,7 @@ def submit():
 
     new_id = f"RES{ws.max_row}"
     ws.append([new_id, name, contact, vehicle, plate, start_dt, end_dt, days, rate, total, status])
-    wb.save("Vehicle_Database.xlsx")
+    wb.save("Balane_Database.xlsx")
     wb.close()
 
     messagebox.showinfo("Success", "Saved successfully!")
@@ -147,7 +148,7 @@ def change_record():
     values = table.item(selected, "values")
     record_id = str(values[0])
 
-    wb = load_workbook("Vehicle_Database.xlsx")
+    wb = load_workbook("Balane_Database.xlsx")
     ws = wb.active
     for row in range(2, ws.max_row + 1):
         if str(ws.cell(row=row, column=1).value) == record_id:
@@ -162,7 +163,7 @@ def change_record():
             ws.cell(row=row, column=10, value=total)
             ws.cell(row=row, column=11, value=status)
             break
-    wb.save("Vehicle_Database.xlsx")
+    wb.save("Balane_Database.xlsx")
     wb.close()
 
     messagebox.showinfo("Success", "Record updated.")
@@ -190,9 +191,9 @@ def select_record(event):
 
 def load_data():
     table.delete(*table.get_children())
-    if not os.path.exists("Vehicle_Database.xlsx"):
+    if not os.path.exists("Balane_Database.xlsx"):
         return
-    wb = load_workbook("Vehicle_Database.xlsx")
+    wb = load_workbook("Balane_Database.xlsx")
     ws = wb.active
     for row in ws.iter_rows(min_row=2, values_only=True):
         if row[0]:
